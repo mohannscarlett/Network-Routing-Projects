@@ -1,0 +1,16 @@
+
+
+Host Configuration: Naming the router as "Scarlett-Router3".
+Loopback Interface: Configure a loopback interface (lo0) with the IP address 13.0.0.1 and a subnet mask of 255.0.0.0.
+
+Serial Interface s1/0: Frame Relay encapsulation on serial interface s1/0 without specifying an IP address initially.
+
+Sub-Interfaces for Multipoint Frame Creates two sub-interfaces (s1/0.301 and s1/0.302) as point-to-point connections with specific IP addresses: 20.0.0.2/8 and 10.0.0.2/8, respectively. It associates each sub-interface with a DLCI (Data Link Connection Identifier) for Frame Relay communication.
+
+Enables Interfaces: The "no shut" command is used to bring the interfaces out of the shutdown state, enabling communication.
+
+RIP Routing Protocol ConfigurationSets up the Routing Information Protocol (RIP) by entering the router RIP configuration mode. It includes network statements for the networks 13.0.0.0, 20.0.0.0, and 10.0.0.0, enabling RIP routing updates on interfaces belonging to these networks.
+
+This configuration assumes you're using RIP for routing between the networks connected via these interfaces.
+
+This setup creates a router with a loopback interface, serial interfaces configured for Frame Relay, and RIP routing enabled for the specified networks.
