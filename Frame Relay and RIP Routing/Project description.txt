@@ -1,6 +1,7 @@
-
+From the perspective of router 3, the following description sheds light on the makeup of the routing network by looking at the configurations made on router 3.
 
 Host Configuration: Naming the router as "Scarlett-Router3".
+
 Loopback Interface: Configure a loopback interface (lo0) with the IP address 13.0.0.1 and a subnet mask of 255.0.0.0.
 
 Serial Interface s1/0: Frame Relay encapsulation on serial interface s1/0 without specifying an IP address initially.
