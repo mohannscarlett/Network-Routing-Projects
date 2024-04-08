@@ -1,0 +1,9 @@
+This activity is done in packet tracer to simulate a controller-based WLAN development. This includes having
+a corporate network with a WLC and AAA server to handle wireless access point authentication, a home
+network, ISP network, and external (web) network.
+Objectives
+
+• Create a network topology to demonstrate a controller-based WLAN development.
+• Enable routing throughout the network, using OSPF.
+• Configure devices to appropriate settings to ensure security.
+• Ensure connected end user devices can contact the external web server.
